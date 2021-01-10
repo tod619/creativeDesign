@@ -93,4 +93,35 @@ body {
     transition: all 2.5s;
 }
 /* End: navbar */
+
+.section-1-heading {
+    font-family: 8rem;
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    top: 18vw;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0.3rem 0.3rem 0.3rem #888;
+    color: #fff;
+    background-color: #fff;
+    width: 85rem;
+    text-align: center;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.8rem;
+    opacity: 0.9;
+}
+
+.logo {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo i {
+    font-size: 15rem;
+    color: rgba(50,231,255,0.8);
+    text-shadow: 0.1rem 0.1rem 0.2rem #ddd,
+                -0.1rem -0.1rem 0.2rem #ddd ;
+}
 /* End: Section-1 navbar + heading */
