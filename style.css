@@ -19,6 +19,10 @@ font-family: 'Monoton', cursive; */
 html {
     font-size: 62.5%;
 }
+
+body {
+    overflow-x: hidden;
+}
 /* End: Common Styles */
 
 /* Start: Section-1 navbar + heading */
@@ -61,4 +65,32 @@ html {
         transform: rotate(360deg);
     }
 }
+
+/* Start: navbar */
+.navbar {
+    position: relative;
+    z-index: 20;
+    top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-link {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    width: 1.5rem;
+    word-wrap: break-word;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.navbar-link:hover {
+    width: 15rem;
+    background-color: rgba(255,255,255,0.2);
+    transition: all 2.5s;
+}
+/* End: navbar */
 /* End: Section-1 navbar + heading */
