@@ -23,6 +23,17 @@ html {
 body {
     overflow-x: hidden;
 }
+
+.section-heading {
+    font-size: 10rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+    opacity: 0.1;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    text-shadow: 2rem 2rem 4rem #aaa;
+}
 /* End: Common Styles */
 
 /* Start: Section-1 navbar + heading */
@@ -136,16 +147,7 @@ body {
     justify-content: space-around;
 }
 
-.section-heading {
-    font-size: 10rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #999;
-    opacity: 0.1;
-    text-align: center;
-    letter-spacing: 0.2rem;
-    text-shadow: 2rem 2rem 4rem #aaa;
-}
+
 
 .customers-wrapper {
     display: flex;
