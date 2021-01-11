@@ -53,6 +53,7 @@ body {
     top: 0;
     left: 0;
     border-radius: 40%;
+    animation: rotate 30s infinite;
     
 }
 
@@ -95,7 +96,7 @@ body {
 /* End: navbar */
 
 .section-1-heading {
-    font-family: 8rem;
+    font-size: 8rem;
     font-family: 'Monoton', cursive;
     position: absolute;
     top: 18vw;
