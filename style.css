@@ -574,4 +574,18 @@ html {
         font-size: 9rem;
     }
 }
+
+@media(max-width: 950px){
+    .floating-bg {
+        top: -100vw;
+    }
+
+    .section-1-heading {
+        top: 40vw;
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+}
 /* End: Media queries */
