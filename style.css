@@ -588,4 +588,23 @@ html {
         justify-content: space-around;
     }
 }
+
+@media(max-width: 750px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .floating-bg {
+        top: -90vw;
+    }
+
+    .section-1-heading {
+        top: 48vw;
+    }
+
+    .section-heading {
+        margin-bottom: 5rem;
+    }
+}
 /* End: Media queries */
