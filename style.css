@@ -20,8 +20,9 @@ html {
     font-size: 62.5%;
 }
 
-body {
+.container {
     overflow-x: hidden;
+    width: 100%;
 }
 
 .section-heading {
